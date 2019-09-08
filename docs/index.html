@@ -76,15 +76,20 @@ Footballing
 <p>Dr, S.A. Balogun: Federal University of Agriculture, Abeokuta, balogunsa44@gmail.com</p>
 <p>Mr Collins Okoro: Greater Lokoja Water Treatment Plant, Ganaja Village, Lokoja,Kogi State, 08068824212, collushe@yahoo.com</p>
 </section><hr>
-    <form id="form">
+    <form action="#" id="form" style="text-align:center;" method="POST">
+    <h3 id=contact>You like to reach us?</h3>
+    <h4>Fill his form</h4>
     First name:<br>
-    <input type="text" name="firstname" placeholder="Enter your firstname" required><br>
+    <input type="text" name="firstname" id="name" required autofocus="on" title="first name here"><br>
     Last name:<br>
-    <input type="text" name="lastname" placeholder="Enter your lastname" required><br>
+    <input type="text" name="lastname"  required autofocus="on" title="last name here" minlength="4"><br>
     Email:<br>
-    <input type="text" name="email" placeholder="Enter your email" required><br>
-  </form>
-<footer><center>&copy; 2019 Written by Ibmoore</center></footer>
+    <input type="email" name="email"  required autofocus="on" title="email here"><br><br>
+    <textarea title="leave us a message!" minlength="20"></textarea><br>
+    <input type="submit">
+    </form>
+      
+    <footer><center>&copy; 2019 Written by Ibmoore</center></footer>
 <script>
 function myFunction(){
     var toggle=document.getElementById("form");
